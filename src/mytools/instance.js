@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: proess.env.REACT_APP_KEY_PAGE,
+  baseURL: process.env.REACT_APP_KEY_PAGE,
 });
 
 //ohwell instance Api 추가# 사용법 ex)  const data = await ohwellApi.getTodo();
